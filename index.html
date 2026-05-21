@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToyJoy - Kids' Toys Store</title>
+    <!-- Google Font: Fredoka (Rounded & Playful) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Lucide Icons via CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Standard Responsive Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand logo-text" href="#">
+                🎈 <span>ToyJoy</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#featured">Featured Toys</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Normal Playful Hero Section -->
+    <section class="hero-section" id="hero">
+        <div class="container">
+            <div class="row align-items-center gy-5">
+                <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="hero-title mb-4">Where Imagination Comes To Play!</h1>
+                    <p class="hero-desc mb-4">Explore our handpicked collection of safe, eco-friendly, and educational toys designed to spark creativity and joy in every child's heart.</p>
+                    <div class="d-flex justify-content-center justify-content-lg-start gap-3">
+                        <a href="#featured" class="btn btn-primary-playful">Explore Toys</a>
+                        <a href="#contact" class="btn btn-secondary-playful">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img src="https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&q=80&w=600" alt="Kids Wooden Toys" class="hero-img img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Toys Section -->
+    <section class="py-5" id="featured">
+        <div class="container py-4">
+            <div class="text-center mb-5">
+                <h2 class="section-title">Magical Toys Loved By Kids</h2>
+                <p class="text-muted">Our most popular educational and soft toys.</p>
+            </div>
+            
+            <div class="row g-4 justify-content-center">
+                <!-- Product Card 1 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="toy-card h-100 text-center">
+                        <div class="toy-img-container">
+                            <img src="https://images.unsplash.com/photo-1559251606-c623743a6d76?auto=format&fit=crop&q=80&w=300" alt="Soft Bunny Plush">
+                        </div>
+                        <h3 class="h5 font-weight-bold mb-2">Soft Bunny Plush</h3>
+                        <p class="small text-muted mb-3">Cuddly, warm bunny companion designed for bedtime comforting.</p>
+                        <div class="toy-price mb-3">$19.99</div>
+                        <a href="#" class="btn btn-primary-playful btn-sm w-100">Buy Now</a>
+                    </div>
+                </div>
+                <!-- Product Card 2 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="toy-card h-100 text-center">
+                        <div class="toy-img-container">
+                            <img src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&q=80&w=300" alt="Wooden Train Set">
+                        </div>
+                        <h3 class="h5 font-weight-bold mb-2">Wooden Train Set</h3>
+                        <p class="small text-muted mb-3">Classic multi-shape wooden structures built for engineering minds.</p>
+                        <div class="toy-price mb-3">$29.99</div>
+                        <a href="#" class="btn btn-secondary-playful btn-sm w-100">Buy Now</a>
+                    </div>
+                </div>
+                <!-- Product Card 3 -->
+                <div class="col-md-6 col-lg-4">
+                    <div class="toy-card h-100 text-center">
+                        <div class="toy-img-container">
+                            <img src="https://images.unsplash.com/photo-1618842676088-c4d48a6a7c9d?auto=format&fit=crop&q=80&w=300" alt="Shapes Puzzle">
+                        </div>
+                        <h3 class="h5 font-weight-bold mb-2">Shapes Puzzle</h3>
+                        <p class="small text-muted mb-3">Montessori sorting puzzle that enhances cognitive sorting skills.</p>
+                        <div class="toy-price mb-3">$14.99</div>
+                        <a href="#" class="btn btn-primary-playful btn-sm w-100">Buy Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Normal Contact Section -->
+    <section class="contact-section py-5" id="contact">
+        <div class="container py-4">
+            <div class="contact-card p-4 p-md-5 rounded-4">
+                <div class="row g-4 align-items-center">
+                    <!-- Left Side: Basic Info -->
+                    <div class="col-lg-5">
+                        <div class="contact-info-box">
+                            <h3 class="font-weight-bold mb-3">Say Hello! 👋</h3>
+                            <p class="mb-4">Have questions about our kids-safe toys, shipping, or active collections? Send us a message!</p>
+                            
+                            <div class="contact-info-item d-flex align-items-center gap-2">
+                                <i data-lucide="mail" style="width: 18px; height: 18px;"></i>
+                                <span>hello@toyjoy.com</span>
+                            </div>
+                            <div class="contact-info-item d-flex align-items-center gap-2">
+                                <i data-lucide="phone" style="width: 18px; height: 18px;"></i>
+                                <span>+1 (800) TOY-PLAY</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Right Side: Standard Form -->
+                    <div class="col-lg-7">
+                        <h3 class="font-weight-bold mb-4 text-dark">Send us a Message</h3>
+                        
+                        <form id="toyJoyContactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="inputName" class="form-label font-weight-bold">Your Name</label>
+                                        <input type="text" class="form-control" id="inputName" placeholder="Enter name" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="mb-3">
+                                        <label for="inputEmail" class="form-label font-weight-bold">Email Address</label>
+                                        <input type="email" class="form-control" id="inputEmail" placeholder="Enter email" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mb-3">
+                                        <label for="inputMessage" class="form-label font-weight-bold">Your Message</label>
+                                        <textarea class="form-control" id="inputMessage" rows="4" placeholder="Write message..." required></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary-playful w-100 py-2">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                        
+                        <!-- Form Success Banner -->
+                        <div class="alert alert-success mt-4" role="alert" id="formSuccessAlert" style="display: none;">
+                            <strong>Success!</strong> Your message was submitted successfully! We will get back to you soon.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Normal Footer -->
+    <footer class="footer text-center">
+        <div class="container">
+            <h5 class="font-weight-bold mb-3">🎈 ToyJoy</h5>
+            <p class="mb-3">&copy; 2026 ToyJoy. Built for learning and happy kids.</p>
+            <div class="footer-social-links">
+                <a href="#"><i data-lucide="facebook"></i></a>
+                <a href="#"><i data-lucide="instagram"></i></a>
+                <a href="#"><i data-lucide="twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Initializing Lucide Icons & Custom JS -->
+    <script>
+        lucide.createIcons();
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
